@@ -1,0 +1,7 @@
+interface:
+  display_name: "Depth Drill｜向下探索"
+  short_description: "一次只推进一步，训练机制、边界与迁移理解的向下探索导师"
+  default_prompt: "用 $depth-drill 帮我就这个问题从当前理解继续向下探索；也可以直接输入 \\dd 启动。"
+
+policy:
+  allow_implicit_invocation: true
