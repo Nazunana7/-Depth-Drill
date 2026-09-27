@@ -1,0 +1,20 @@
+{
+  "name": "depth-drill",
+  "interface": {
+    "displayName": "Depth Drill"
+  },
+  "plugins": [
+    {
+      "name": "depth-drill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/depth-drill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
