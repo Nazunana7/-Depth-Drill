@@ -44,13 +44,13 @@ Depth Drill 是一个导师型 Skill，用来训练“向下探索能力”，�
 先把该仓库发布到 GitHub，然后在 Codex 中添加 marketplace：
 
 ```bash
-codex plugin marketplace add <your-github-owner>/<repo-name>
+codex plugin marketplace add Nazunana7/-Depth-Drill
 ```
 
 再打开 `/plugins`，找到 **Depth Drill** 并安装。也可以固定分支：
 
 ```bash
-codex plugin marketplace add <your-github-owner>/<repo-name> --ref main
+codex plugin marketplace add Nazunana7/-Depth-Drill --ref main
 ```
 
 如果只想把它作为普通本地 Skill 使用，也可以把下面的目录复制到 Codex 用户的 Skill 目录：
